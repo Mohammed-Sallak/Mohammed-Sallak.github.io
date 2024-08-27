@@ -1,0 +1,157 @@
+/* General Styles for Entire Website */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #666;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 1rem;
+}
+
+/* Specific Styles for Blog Posts */
+.blog-posts img {
+    display: block;
+    margin: 0 auto 1rem auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    main {
+        padding: 1rem;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Additional Styles for Blog Posts */
+.blog-posts {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.blog-posts h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.blog-posts p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #666;
+}
+
+.blog-posts img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 1rem;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Existing CSS rules */
+
+/* Add this rule to resize the ott image */
+.small-image {
+    width: 350px; /* Adjust this value as needed */
+    height: auto; /* Maintains aspect ratio */
+    display: block;
+    margin: 0 auto; /* Centers the image if needed */
+}
+
+.big-image {
+    width: 450px; /* Adjust this value as needed */
+    height: auto; /* Maintains aspect ratio */
+    display: block;
+    margin: 0 auto; /* Centers the image if needed */
+}
+
+.bigger-image {
+    width: 500px; /* Adjust this value as needed */
+    height: auto; /* Maintains aspect ratio */
+    display: block;
+    margin: 0 auto; /* Centers the image if needed */
+}
+
+.smaller-image {
+    width: 500px; /* Adjust this value as needed */
+    height: auto; /* Maintains aspect ratio */
+    display: block;
+    margin: 0 auto; /* Centers the image if needed */
+}
